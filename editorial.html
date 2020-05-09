@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Título y Descripción de la Página x cada página del sitio web-->
+    <meta title="Inicio">
+    <title>Editorial</title>
+
+    <meta name="Linda Maldonado" content="Soy una diseñadora gráfica especializada en Branding y Diseño editorial." />
+
+    <!--Codificación de Caracteres en Español e Inglés-->
+    <meta charset="utf-8">
+
+    <!--Meta del Responsive // Media Queries-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Normalize, Modernizr y Prefix Free desde CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+    <!--Llamado a Font Awesome Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--Llamado a Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,600i,700,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <!--Llamado a CSS propio-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+
+    <!-- ENCABEZADO -->
+    <header>
+        <article id="arriba-header">
+             <!-- MENÚ IDIOMA Y UBICACIÓN-->
+            <nav id="menu-idioma">
+                <a href="index.html">Esp</a>
+                <span>/</span>
+                <a href="home.html">Eng</a>
+            </nav>
+             <a id="Ubicacion" href="https://www.google.com/maps/place/Carrera+14+%232a-36,+Santo+Tom%C3%A1s,+Atl%C3%A1ntico/@10.7628149,-74.7538636,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef5c5694e9a6945:0xc2ae8d342b242c8c!8m2!3d10.762649!4d-74.751708?hl=es-MX">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Santo Tomás, Atlántico</span>
+                </a>
+
+
+            <!--MENÚ REDES SOCIALES-->
+            <nav id="menu-redes">
+                <a href="tel:+573016041983" target="_blank">301 604 1983</a>
+
+                <a href="https://api.whatsapp.com/send?phone=573016041983" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/pena.lm/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.behance.net/lindamaldonado" target="_blank">
+                    <i class="fab fa-behance"></i>
+                </a>
+
+                <a href="mailto:lindampena5@gmail.com" target="_blank">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </nav>
+        </article>
+
+        <article id="abajo-header">
+            <!-- LOGO-->
+            <a href="index.html" id="logo">
+                <img src="img/logo-pena.svg">
+            </a>
+
+            <!-- MENÚ HORIZONTAL-->
+            <nav id="menu-principal">
+                <a href="index.html">Inicio</a>
+                <a href="branding.html">Branding</a>
+                <a href="editorial.html">Editorial</a>
+                <a href="#">Contáctame</a>
+            </nav>
+        </article>
+    </header>
+
+    <main>
+        <section id="info-editorial">
+            <article id="fila-titulo-Editorial">
+                <h1>Editorial</h1>
+                <p>Se dedica al diseño, maquetación y composición de publicaciones tales como libros, revistas, periódicos, catálogos, caratulas, volantes, afiches, entre otros. </p>
+            </article>
+
+            <article id="fila-trabajos-editorial">
+                <div>
+                    <a href="img/grande-hermes.jpg" data-fancybox>
+                        <img src="img/hermes.jpg.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <h5>Periódico Hermes</h5>
+                    <p>La diagramación y creación del periódico Hermes la llevé a cabo junto con mi colega Maria Cristina Evans para un trabajo universitario.</p>
+                </div>
+
+                <div>
+                    <a href="img/grande-you.jpg" data-fancybox>
+                        <img src="img/you.jpg.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <h5>Revista You</h5>
+                    <p>La revista You, fue un proyecto que realicé en una clase, pensada para un público juvenil o para todo aquel que le guste todo ese mundo de youtubers.</p>
+                </div>
+
+                <div>
+                    <a href="img/grande-metamorfosis.jpg" data-fancybox>
+                        <img src="img/metamorfosis.jpg.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <h5>Libro la metamorfosis</h5>
+                    <p>Para esta obra de Franz KafKa, realicé la portada con ilustración propia y la diagramación de las páginas internas del libro.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+   <!--Zona donde van los archivos JavaScript-->
+        <!--Llamado a librería jQuery principal desde CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        
+        <!--jQuery Easing-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    
+        <!--FancyApps-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+        <!--Llamado a JS propios-->
+        <script src="js/script.js"></script>
+</body>
+
+</html>
